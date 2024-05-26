@@ -1,0 +1,39 @@
+.page-body{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    background: #fafafa;
+}
+
+.Home{
+    position: relative;
+}
+
+.nav-bar{
+    background-color: var(--nav-color);
+    z-index: 2;
+}
+
+
+.asset-container{
+    flex: 2 1 20%;
+    max-width: 25%;
+    right: 0;
+    z-index: 1;
+}
+
+.bloglist{
+    flex: 8 1 80%;
+    margin-right: 30px;
+}
+.noUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.noUser h1{
+    color: red;
+}

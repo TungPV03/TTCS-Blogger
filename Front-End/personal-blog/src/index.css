@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --highlight-text: #39A7FF;
+  --header-text: #362FD9;
+  --error-text: #F31559;
+  --normal-text: #fafafa;
+  --bg-opacity-08: rgba(227, 227, 227, 0.7);
+  --bg-opacity-1: rgba(227, 227, 227, 1);
+  --bg-opacity-05: rgba(169, 169, 169, 0.5);
+  --link-color: #41C9E2;
+  --link-color-lighter: #97FFF4;
+  --border-avt-color: #874CCC;
+  --nav-color: #2E0249;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  border: none;
+  background: unset;
+}
+
+@keyframes floatUp {
+  from {
+      transform: translateY(70px); 
+      opacity: 0; 
+  }
+  to {
+      transform: translateY(0); 
+      opacity: 1; 
+  }
+}

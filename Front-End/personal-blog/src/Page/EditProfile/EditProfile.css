@@ -1,0 +1,85 @@
+.user-profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: unset !important;
+}
+.user-profile-container .create-post-btn{
+    display: none;
+}
+
+.user-avatar{
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--border-avt-color);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.edit-profile{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    z-index: 3;
+    background-color: rgba(236,249,255, 0.85);
+}
+
+.user-infor{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.user-infor .user-infor-detail, .user-infor .edit-input{
+    flex: 1 1;
+    margin:0 10px;
+}
+
+.edit-profile .edit-profile-btn{
+    justify-self: flex-end;
+}
+
+.cur-user-blogs{
+    z-index: 3;
+}
+
+.change-avt-icon{
+    font-size: 3rem;
+}
+
+.user-avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.save-btn{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.user-infor-container{
+    padding: 10px 20px;
+    flex: 1 1 30%;
+    max-width: 30%;
+}
+
+.user-infor-span{
+    padding: 0 10px;
+}
+
+.edit-profile-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

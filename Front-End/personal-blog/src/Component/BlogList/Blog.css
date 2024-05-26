@@ -1,0 +1,182 @@
+.blog-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 25px;
+    background-color: var(--bg-opacity-08);
+    box-shadow: 0 0 10px #212121;
+    margin: 30px 0 20px 0;
+}
+
+.blog-card-container .blog-card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.blog-card-header{
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.blog-name-time{
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-name-time .user-name{
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 0;
+    text-align: left;
+}
+
+.blog-name-time .blog-time{
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.user-img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid var(--border-avt-color);
+}
+
+.user-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-del{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.del-btn{
+    padding: 5px;
+}
+
+.del-btn:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.blog-body{
+    width: 100%;
+}
+
+.blog-title{
+    margin: 5px 10px 0 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.blog-body .blog-content{
+    padding: 0;
+    margin: 0 10px;
+}
+
+.blog-body .blog-img{
+    height: 500px !important;
+}
+
+.blog-body .blog-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog-react-items{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.blog-react-item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.react-cnt{
+    vertical-align: middle;
+    line-height: 100%;
+}
+
+.blog-react-item{
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.blog-react-icon{
+    padding: 5px;
+}
+/* Delete alert */
+
+.alert-container{
+    z-index: 3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.alert{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white !important;
+    box-shadow: 0 0 10px #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.alert-icon{
+    font-size: 3rem;
+    color: red;
+}
+
+.alert-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.delete-btn:hover{
+    background-color: red;
+}
+
+.cancel-btn{
+    background-color: #B4B4B8;
+}
+
+
+.blog-react-icon.liked{
+    color: red;
+}
+
+.body-footer{
+    width: 100%;
+}
+
+.user-link{
+    color: #212121;
+}
