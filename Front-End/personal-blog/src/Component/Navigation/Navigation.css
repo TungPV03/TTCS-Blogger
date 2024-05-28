@@ -84,3 +84,13 @@
 .user-container .user-name{
     font-size: 1.2rem;
 }
+
+.text-white{
+    color: #fafafa;
+    justify-self: flex-end;
+}
+
+.text-white:hover{
+    color: #E72929 !important;
+    cursor: pointer;
+}

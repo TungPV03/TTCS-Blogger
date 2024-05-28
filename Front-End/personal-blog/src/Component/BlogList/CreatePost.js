@@ -18,7 +18,7 @@ export default function CreatePost() {
 
   const handleCreatPost = (title, content, img, goTo) => {
     if(title === "" || content === ""){
-      alert("Empty title or content!");
+      toast.error('Title and content are required');
     }
     else{
       dispatch(API.createPost(title, content, img, goTo))
